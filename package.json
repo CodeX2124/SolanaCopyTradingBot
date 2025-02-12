@@ -6,8 +6,10 @@
     "dev": "ts-node src/main.ts"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.4.12",
     "@solana/web3.js": "^1.98.0",
     "bs58": "^6.0.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
   }
 }
